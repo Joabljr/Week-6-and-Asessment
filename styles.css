@@ -1,0 +1,71 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  border-bottom: 2px solid orange;
+}
+
+ol {
+  padding-left: 0;
+}
+
+.crumb {
+  margin-right: 2em;
+  display: inline;
+}
+
+a {
+  color: orange;
+}
+
+a:visited {
+  color: crimson;
+}
+
+input {
+  display: block;
+}
+
+img {
+  max-width: 300px;
+}
+
+.blueC {
+  color: rgb(235, 123, 18);
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  height: auto;
+  width: fill;
+  margin-top: 50px;
+  margin-left: -10px;
+  margin-right: -10px;
+  flex-direction: row;
+}
+
+.smallPics {
+  height: 200px;
+  width: 200px;
+}
+
+.smallerPics {
+  height: 100px;
+  width: 100px;
+}
+
+button {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(238, 200, 77);
+  border-color: aliceblue;
+  width: 100px;
+  height: 100px;
+}
